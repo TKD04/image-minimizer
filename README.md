@@ -13,10 +13,11 @@ A simple Node.js app to minimize images.
 
 ## Usage
 
-1. Copy the images you want to minimize into the `src` directory.
-2. Open the terminal.
-3. Type `npm run convert`.
-4. Wait a few seconds.
+1. Create `src` directory in this directory.
+2. Copy the images you want to minimize into the `src` directory.
+3. Open the terminal.
+4. Type `npm run convert`.
+5. Wait a few seconds.
 
 After these operations, you'll see the minimized images in the `dist` directory.
 
