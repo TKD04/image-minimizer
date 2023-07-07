@@ -1,0 +1,15 @@
+{
+  "name": "image-minimizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "update": "ncu -u"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-check-updates": "^16.10.15"
+  }
+}
