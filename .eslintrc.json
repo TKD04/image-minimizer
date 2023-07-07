@@ -3,7 +3,8 @@
     "import/extensions": [
       "error",
       "always"
-    ]
+    ],
+    "import/no-extraneous-dependencies": "off"
   },
   "ignorePatterns": [
     "/dist/"
