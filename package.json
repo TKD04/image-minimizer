@@ -16,5 +16,6 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
     "npm-check-updates": "^16.10.15"
-  }
+  },
+  "type": "module"
 }
