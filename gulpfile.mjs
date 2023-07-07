@@ -14,4 +14,4 @@ const clean = () => deleteAsync("./dist/**");
 task("watch", () => watch(["./src/*"], minifyImages));
 task("clean", clean);
 
-export default series(clean, minifyImages);
+export default minifyImages;
