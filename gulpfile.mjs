@@ -3,7 +3,7 @@ import GulpClient from "gulp";
 import imagemin from "gulp-imagemin";
 import pngquant from "imagemin-pngquant";
 
-const { dest, series, src, task, watch } = GulpClient;
+const { dest, src, task, watch } = GulpClient;
 
 const minifyImages = () =>
   src("./src/*")
