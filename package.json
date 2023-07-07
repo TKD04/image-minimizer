@@ -19,6 +19,7 @@
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
     "gulp-imagemin": "^8.0.0",
+    "imagemin-pngquant": "^9.0.2",
     "npm-check-updates": "^16.10.15"
   },
   "type": "module"
