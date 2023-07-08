@@ -6,7 +6,7 @@ A simple Node.js app to minimize images.
 
 **NOTE**: You will need to install [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en) if you don't already have them.
 
-1. Open the terminal where you want to install this app.
+1. Open a terminal and change to the directory where you want to install this app.
 2. Type `git clone https://github.com/TKD0427/image-minimizer.git`.
 3. Type `cd image-minimizer`.
 4. Type `npm i`.
