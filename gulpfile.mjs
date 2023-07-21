@@ -7,7 +7,7 @@ const { dest, src, series } = GulpClient;
 const gulpWatch = GulpClient.watch;
 
 const minifyImages = () =>
-  src("./src/*")
+  src("./src/*.{jpg,jpeg,png,gif,svg}")
     .pipe(imagemin([pngquant({ quality: [0.5, 0.5] })]))
     .pipe(dest("./dist"));
 
