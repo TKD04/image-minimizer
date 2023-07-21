@@ -3,15 +3,15 @@ import GulpClient from "gulp";
 import imagemin from "gulp-imagemin";
 import pngquant from "imagemin-pngquant";
 
-const { dest, src, task, watch } = GulpClient;
+const { dest, src, series } = GulpClient;
+const gulpWatch = GulpClient.watch;
 
 const minifyImages = () =>
   src("./src/*")
     .pipe(imagemin([pngquant({ quality: [0.5, 0.5] })]))
     .pipe(dest("./dist"));
-const clean = () => deleteAsync("./dist/**");
 
-task("watch", () => watch(["./src/*"], minifyImages));
-task("clean", clean);
-
-export default minifyImages;
+export const convert = () => minifyImages;
+export const watch = () => gulpWatch(["./src/*"], minifyImages);
+export const clean = () => deleteAsync("./dist/**");
+export default series(clean, minifyImages);
