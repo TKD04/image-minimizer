@@ -12,7 +12,7 @@ const minifyImages = () =>
   src("./src/*.{jpg,jpeg,png,gif,svg}")
     .pipe(
       imagemin([
-        mozjpeg({ quality: 80 }),
+        mozjpeg({ quality: 75 }),
         pngquant({ quality: [0.65, 0.8] }),
         svgo(),
         gifsicle(),
