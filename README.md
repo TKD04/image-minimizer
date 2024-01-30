@@ -2,6 +2,13 @@
 
 A simple Node.js app to minimize images.
 
+| Format | Encoder  |
+| ------ | -------- |
+| jpeg   | mozjpeg  |
+| png    | pngquant |
+| svg    | svgo     |
+| gif    | gifsicle |
+
 ## Install
 
 **NOTE**: You will need to install [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en) if you don't already have them.
